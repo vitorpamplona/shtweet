@@ -8,8 +8,8 @@ COOKIE_LINE="--cookie /tmp/cookiesShtw.txt --cookie-jar /tmp/cookiesShtw.txt --u
 f_login() {
 	shift	
 	# Submit login through form post. 
-	curl -s $COOKIE_LINE --data "username=$1" --data "password=$2" --data 'commit=Sign In' https://mobile.twitter.com/session
-	echo "\nLogged in"
+	curl -s $COOKIE_LINE --data "username=$1" --data "password=$2" --data 'commit=Sign In' https://mobile.twitter.com/session > /dev/null
+	echo "Logged in"
 }
 
 # ./twitter say <what is happening>
