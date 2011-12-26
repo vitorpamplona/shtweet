@@ -1,11 +1,11 @@
 This is a short shell script to use twitter from command line. Probably the simplest twitter client ever made. 
 
-We use cookie-based authentication (just like a browser) instead of the annoying oAuth. 
+We use cookie-based authentication (just like a browser) instead of the annoying OAuth. 
 
 --------
 
 Install: 
-> chmod 777 twitter.sh
+> chmod +x twitter.sh
 
 Usage:
 
